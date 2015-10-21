@@ -14,6 +14,7 @@ import static SearchingKey.KeySearch.*;
 import static Sorting.SortingClass.BubleSortMethod;
 import static Sorting.SortingClass.InsertionSortMethod;
 import static Sorting.SortingClass.SelectionSortMethod;
+
 /*
 The main goal is to analize the time and interchanges in a ArrayList using 3 Searching methods, and 6 sort methods
 Search Methods:
@@ -74,4 +75,19 @@ public class Main {
 
         }
     }
+    public static class Info {
+
+        String name;
+        int time;
+        int comparations;
+        int interchanges;
+
+        public Info(String name, int time, int comparations, int interchanges) {
+
+            this.name = name;
+            this.time = time;
+            this.comparations = comparations;
+            this.interchanges = interchanges;
+        }
 }
+// sortare metod

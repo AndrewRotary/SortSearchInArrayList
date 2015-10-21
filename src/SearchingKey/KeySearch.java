@@ -67,7 +67,7 @@ public class KeySearch {
 
     public static boolean BinaryKeySearch(ArrayList<Integer> data, long msDelay, int contor) throws IOException {
         boolean variable = false;
-        contor = 1;
+        contor = 0;
         int key = EnterKey();
         Date currentTime = new Date();
         int low = 0;

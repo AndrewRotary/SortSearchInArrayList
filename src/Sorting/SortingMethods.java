@@ -68,7 +68,6 @@ public class SortingMethods {
 
             for (int i = curIndex + 1; i < data.size(); i++) {
                 if (smallest > data.get(i)) {
-                    contor++;
                     interchanges++;
                     // update smallest
                     smallest = data.get(i);
@@ -83,7 +82,6 @@ public class SortingMethods {
                 // swap values otherwise
             else {
                     interchanges++;
-                    contor++;
                     int temp = data.get(curIndex);
                     data.set(curIndex, data.get(smallestIndex));
                     data.set(smallestIndex, temp);
@@ -117,7 +115,7 @@ public class SortingMethods {
             // or the element left of the hole is <= to the value we're inserting
             while( holePos > 0 && list.get(holePos-1) > val )
             {
-                contor++;
+
                 interchanges++;
                 // move the hole to the left
                 list.set( holePos, list.get(holePos-1) );

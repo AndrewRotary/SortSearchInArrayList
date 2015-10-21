@@ -23,8 +23,11 @@ public class SortingClass {
         createRandom(ArrayLength, buble);
         System.out.println("\nNot Sorted array:");
         System.out.println(buble);
+        System.out.println("\nSorted array case Nefavorable:");
         bubbleSort(buble);
-        System.out.println("\nSorted array:");
+        System.out.println(buble);
+        System.out.println("\nSorted array case Favorable:");
+        bubbleSort(buble);
         System.out.println(buble);
     }
     public static void SelectionSortMethod() throws IOException {
@@ -33,8 +36,11 @@ public class SortingClass {
         createRandom(ArrayLength, SelectionSortArray);
         System.out.println("\nNot Sorted array:");
         System.out.println(SelectionSortArray);
+        System.out.println("\nSorted array case Nefavorable:");
         selectionSort(SelectionSortArray);
-        System.out.println("\nSorted array:");
+        System.out.println(SelectionSortArray);
+        System.out.println("\nSorted array case Favorable:");
+        selectionSort(SelectionSortArray);
         System.out.println(SelectionSortArray);
     }
 
@@ -44,8 +50,11 @@ public class SortingClass {
         createRandom(ArrayLength, InsertionSortArray);
         System.out.println("\nNot Sorted array:");
         System.out.println(InsertionSortArray);
+        System.out.println("\nSorted array case Nefavorable:");
         InsertionSort(InsertionSortArray);
-        System.out.println("\nSorted array:");
+        System.out.println(InsertionSortArray);
+        System.out.println("\nSorted array case Favorable:");
+        InsertionSort(InsertionSortArray);
         System.out.println(InsertionSortArray);
     }
 }
